@@ -21,3 +21,5 @@ done
 The images below shows an input monochrome image and the result of the labelling process. It is immediately obvious that the labelling process sometimes gives multiple labels to the same blob. To understand why this happens, take a look at the blob comprising labels 1, 2, 3 & 4. When the kernel reaches the first pixel labelled 2, it has no way of knowing at this stage that is is connected to those labelled 1. However, this is is easily resolved.
 
 The solution is to keep a note which labels refer to the same blob when the two labelled sections eventually connect. This is described in the next section.
+
+http://www.labbookpages.co.uk/software/imgProc/files/blobLabels.png
